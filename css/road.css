@@ -1,0 +1,80 @@
+body {
+    background-image: url(../img/road-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left
+}
+#name {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: black;
+}
+#dag{
+    color:black;
+    text-align:center;
+    font-family:serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#klok{
+    font-family:serif;
+    color:black;
+    letter-spacing:2px;
+    font-size:20px;
+    font-weight: bolder;
+}
+#pakje{
+    font-size: 30px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    text-shadow: none;
+    
+}
+label {
+    font-weight: bold;
+}
+.btnmodal {
+    height: 30px;
+    width: 100px;
+    box-shadow: none;
+}
+.btnmodal:hover {
+    transform: translate(5px, -5px);
+    box-shadow: none
+}
+.g {
+    color: yellow;
+}
+#auto {
+    animation-name: rijden;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes rijden {
+    0% {
+        transform: rotateY(180deg);
+    }
+    45% {
+        transform: translate(1100px) rotateY(180deg);
+    }
+    50% {
+        transform: translate(1200px) rotateY(0deg);
+    }
+
+    95%{
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: translate(0px) rotateY(180deg);  
+    }
+}

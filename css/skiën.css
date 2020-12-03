@@ -1,0 +1,56 @@
+body {
+    background-image: url(../img/skie-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#name {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: black;
+}
+#dag{
+    color:black;
+    text-align:center;
+    font-family:serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#klok{
+    font-family:serif;
+    color:#000000;
+    letter-spacing:2px;
+    font-size:20px;
+    font-weight: bold;
+}
+#pakje{
+    font-size: 30px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    text-shadow: none;
+    
+}
+label {
+    font-weight: bold;
+}
+.g {
+    color: yellow;
+}
+.btnmodal {
+    height: 30px;
+    width: 100px;
+    box-shadow: none;
+}
+.btnmodal:hover {
+    transform: translate(5px, -5px);
+    box-shadow: none
+}

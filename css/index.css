@@ -1,0 +1,103 @@
+body {
+    position: relative;
+}
+.navbar {
+   z-index: 2;
+}
+.carousel {
+    z-index: 0;
+    position: absolute;
+}
+#name {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: black;
+}
+#name2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    color: black;
+}
+#dag{
+    color:black;
+    text-align:center;
+    font-family:serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#klok{
+    font-family:serif;
+    color:black;
+    letter-spacing:2px;
+    font-size:20px;
+    font-weight: bold;
+}
+#pakje{
+    font-size: 30px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    text-shadow: none;
+    
+}
+.jumbotron {
+    background-color:transparent;
+    z-index: 1; 
+}
+.btn {
+    height: 100px;
+    width: 200px;
+    box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
+}
+.btnmodal {
+    height: 30px;
+    width: 100px;
+    box-shadow: none;
+}
+.btn:hover {
+    transform: translate(15px, -15px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+}
+.btnmodal:hover {
+    transform: translate(5px, -5px);
+    box-shadow: none
+}
+#buttongroup {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+p {
+    font-weight: bold;
+}
+#vliegtuig {
+    animation-name: vliegen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes vliegen {
+    0% {
+        transform: translate(-500px)rotateY(180deg);
+    }
+    45% {
+        transform: translate(500px) rotateY(180deg);
+    }
+    50% {
+        transform: translate(550px) rotateY(0deg);
+    }
+    95%{
+        transform: translate(-500px)
+    }
+    100%{
+        transform: translate(-500px)rotateY(180deg)
+    }
+}
+
