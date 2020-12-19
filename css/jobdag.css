@@ -1,0 +1,13 @@
+p {
+    font-size: 25px;
+    color: white;
+}
+#spelerhand {
+    transform: rotateY(180deg);
+}
+#match {
+    display: none;
+}
+#saw2 {
+    transform: rotateY(180deg);
+}
