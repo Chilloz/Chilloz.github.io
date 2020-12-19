@@ -31,7 +31,7 @@ function checkRondeSchaar(){
         spelerscore++;
         document.getElementById("puntenspeler").innerHTML = spelerscore;
         if (spelerscore == 3){
-            location.replace("http://127.0.0.1:5500/frontendscripting/Website%20Jobdag/main.html");
+            location.replace("https://chilloz.github.io/main.html");
     };
     }
 }
@@ -57,7 +57,7 @@ function checkRondeSteen(){
         spelerscore++;
         document.getElementById("puntenspeler").innerHTML = spelerscore;
         if (spelerscore == 3){
-            location.replace("http://127.0.0.1:5500/frontendscripting/Website%20Jobdag/main.html");
+            location.replace("https://chilloz.github.io/main.html");
     };
     }
 }
@@ -83,7 +83,7 @@ function checkRondePapier(){
         spelerscore++;
         document.getElementById("puntenspeler").innerHTML = spelerscore;
         if (spelerscore == 3){
-            location.replace("http://127.0.0.1:5500/frontendscripting/Website%20Jobdag/main.html");
+            location.replace("https://chilloz.github.io/main.html");
     };
     }
 }
