@@ -1,9 +1,9 @@
 arrAfbeeldingen = ["img/rock.png", "img/paper.png", "img/scissors.png"];
 var spelerscore = 0;
 var computerscore = 0;
-// function speelLach(){
-//     document.getElementById("audio").innerHTML = "<audio autoplay><source src='video/puppetlaugh.ogg' type='audio/ogg'><source src='video/puppetlaugh.mp3' type='audio/mpeg'></audio>"
-// }
+function speelLach(){
+    document.getElementById("audio").innerHTML = "<audio autoplay><source src='video/puppetlaugh.mp3' type='audio/mpeg'></audio>"
+}
 function startWedstrijd() {
     var x = document.getElementById("match");
     var y = document.getElementById("intro");
