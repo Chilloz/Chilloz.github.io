@@ -20,12 +20,12 @@
     <div class="container h-25 d-flex justify-content-around align-items-center">
         <div class="row w-100 text-center">
             <div class="col-6">
-                <h2>Speler</h2>
-                <p id="puntenspeler">0</p>
+                <h2 class="text-white-50 mb-0">Speler</h2>
+                <p id="puntenspeler" class="text-white-50">0</p>
             </div>
             <div class="col-6">
-                <h2>Computer</h2>
-                <p name ="puntencomputer" id="puntencomputer">0</p>
+                <h2 class="text-white-50 mb-0">Computer</h2>
+                <p class="text-white-50" id="puntencomputer">0</p>
             </div>
         </div>
     </div>
@@ -34,43 +34,36 @@
 
     <div id="intro" class="w-100 h-50">
     <div class="container h-100 d-flex flex-column align-items-center justify-content-around">
-        <h1 class="text-center">Hello user,<br>I want to play a game</h1>
+        <h1 class="text-center text-white-50">Hello user,<br>I want to play a game</h1>
         <button type="button" class="btn btn-success w-25 h-25" onclick="startWedstrijd()">SPELEN!</button>
     </div>
     </div>
 
-
     <!--Keuzes-->
 
     <div id="match" class="h-50">
-    <div id="matchcontainer" class="container h-100 d-flex flex-column align-items-center justify-content-around">
+    <div id="matchcontainer" class="container h-100 d-flex flex-column align-items-center justify-content-center">
         <div class="row w-100 text-center">
             <div class="col">
-                <h2 id="winnaar">Kies een optie</h2>
+                <h2 id="winnaar" class="text-white-50 d-none d-sm-block">Kies een optie</h2>
             </div>
-        <div class="row w-100 d-flex justify-content-around">
-            <img id="spelerhand" src="img/rock.png">
-            <img id="computerhand" src="img/rock.png">
+        <div class="row w-100 d-flex justify-content-center align-items-center">
+            <img id="spelerhand" class="img-fluid" src="img/rock.png" width="200px" height="134px">
+            <img id="computerhand" class="img-fluid" src="img/rock.png" width="200px" height="134px">
         </div>
-        <div class="row w-100 d-flex justify-content-center">
-            <button type="button" id="schaar" class="btn btn-warning px-5 mx-4" onclick="checkRondeSchaar()">schaar</button>
-            <button type="button" id="steen" class="btn btn-warning px-5 mx-4" onclick="checkRondeSteen()">steen</button>
-            <button type="button" id="papier" class="btn btn-warning px-5 mx-4" onclick="checkRondePapier()">papier</button>
+        <div class="row w-100 d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <button type="button" id="schaar" class="col-6 col-md-2 btn btn-warning m-2" onclick="checkRondeSchaar()">schaar</button>
+            <button type="button" id="steen" class="col-6 col-md-2 btn btn-warning m-2" onclick="checkRondeSteen()">steen</button>
+            <button type="button" id="papier" class="col-6 col-md-2 btn btn-warning m-2" onclick="checkRondePapier()">papier</button>
         </div>
         </div>
     </div>
 </div>
-<div class="container h-25 d-flex justify-content-around">
+<div class="container h-25 d-none d-md-flex justify-content-around">
     <img src="img/saw.png" width="150px">
     <img src="img/static.gif" width="250px">
     <img id="saw2" src="img/saw.png" width="150px">
 </div>
-
-<audio id="audio" autoplay>
-    <source src="video/puppetlaugh.mp3" type="audio/mpeg">
-    <!-- <source src="video/puppetlaugh.ogg" type="audio/ogg"> -->
-    
-</audio>
 
 </body>
 </html>

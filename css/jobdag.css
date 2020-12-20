@@ -1,9 +1,9 @@
 p {
     font-size: 25px;
-    color: white;
 }
-#spelerhand {
+#spelerhand{
     transform: rotateY(180deg);
+    background-size: 50%;
 }
 #match {
     display: none;
