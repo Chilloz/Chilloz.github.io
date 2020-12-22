@@ -10,7 +10,7 @@ function startWedstrijd() {
 
 function checkRondeSchaar(){
     document.getElementById("spelerhand").src = "img/scissors.png";
-    var random = arrAfbeeldingen[Math.floor(Math.random()*4)];
+    var random = arrAfbeeldingen[Math.floor(Math.random()*3)];
     if (random == "img/rock.png"){
         document.getElementById("computerhand").src = "img/rock.png";
         computerscore++;
@@ -28,7 +28,7 @@ function checkRondeSchaar(){
 }
 function checkRondeSteen(){
     document.getElementById("spelerhand").src = "img/rock.png";
-    var random = arrAfbeeldingen[Math.floor(Math.random()*4)];
+    var random = arrAfbeeldingen[Math.floor(Math.random()*3)];
     if (random == "img/rock.png"){
         document.getElementById("computerhand").src = "img/rock.png";
     } else if (random == "img/paper.png"){
@@ -46,7 +46,7 @@ function checkRondeSteen(){
 }
 function checkRondePapier(){
     document.getElementById("spelerhand").src = "img/paper.png";
-    var random = arrAfbeeldingen[Math.floor(Math.random()*4)];
+    var random = arrAfbeeldingen[Math.floor(Math.random()*3)];
     if (random == "img/rock.png"){
         spelerscore++;
         document.getElementById("puntenspeler").innerHTML = spelerscore;
