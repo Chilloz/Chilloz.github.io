@@ -12,11 +12,15 @@ body {
 }
 .bg1 {
     background-image: url(../img/darkbg-image.png);
-    background-size: cover; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .bg2 {
     background-image: url(../img/dark-bgimageflip.png);
-    background-size: cover;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Navbar styling */
