@@ -23,6 +23,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg3 {
+    background-image: url(../img/darkbg-image2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Navbar styling */
 
 nav.nav-bg {
@@ -139,4 +147,11 @@ img {
 .list li {
     width: 50%;
     float: left;
+}
+
+/* My work styling */
+
+#border2 {
+    border-bottom: 2px solid rgb(233, 185, 29);
+    width: 303px;
 }
