@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #fff; 
+}
+.bg1 {
+    background-image: url(../img/darkbg-image.png);
+    background-size: cover; 
+}
+.bg2 {
+    background-image: url(../img/dark-bgimageflip.png);
+    background-size: cover;  
+}
+
+/* Navbar styling */
+
+nav.nav-bg {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background-color: transparent !important;
+}
+.nav-bg.scrolled {
+    background-color: black !important;
+}
+.navbar-brand {
+    border: 2px solid rgb(233, 185, 29);
+    color: rgb(233, 185, 29) !important;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+    line-height: 1;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color: white !important;
+    border-color: white;
+    background-color: black;
+}
+.topnaam {
+    letter-spacing: 8px;
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em; 
+    position: relative;
+}
+a:hover {
+    color: white;
+}
+a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0;
+}
+/* Landing content styling */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.3em;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+.titel-1, .titel-2, .titel-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.2;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.4);
+}
+.titel-2 {
+    font-size: 1.66em;
+    color: rgba(255, 255, 255, 0.3);
+}
+.titel-3 {
+    font-size: 1.33em;
+    color: rgba(255, 255, 255, 0.2);
+}
+#aboutlink, #punt {
+    color: rgb(233, 185, 29);
+}
+#aboutlink:after {
+    background: rgb(233, 185, 29);
+}
+img {
+    filter: grayscale(100%);
+    height: 300px;
+    width: 250px;
+    z-index: 0;
+}
+#landingcontainer{
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+/* About me styling */
+
+.intro {
+    font-size: 1.33em;
+    font-weight: 200;
+    color: #fff;
+}
+#border {
+    border-bottom: 2px solid rgb(233, 185, 29);
+    width: 350px;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.30em;
+}
+.list li {
+    width: 50%;
+    float: left;
+}
