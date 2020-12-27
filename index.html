@@ -17,7 +17,7 @@
 <body>
     <script>
         $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
         });
        </script>
 
@@ -39,9 +39,9 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <nav class="nav d-flex flex-column flex-md-row w-100 justify-content-around align-items-center">
-                <a class="nav-link px-0" href="#about">About Me</a>
-                <a class="nav-link px-0" href="#menu">Work</a>
-                <a class="nav-link px-0" href="contact.html">Contact</a>
+                <a class="nav-link px-0" href="#about">ABOUT ME</a>
+                <a class="nav-link px-0" href="#work">MY WORK</a>
+                <a class="nav-link px-0" href="#contact">CONTACT</a>
             </nav>
         </div>
     </nav>
@@ -53,12 +53,12 @@
    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center" id="landingcontainer">
        <div class="header-content">
        <h1 class="mt-5">Front-end Designer<span id="punt">.</span></h1>
-       <h1 class="">Mobile Developer<span id="punt">.</span></h1>
+       <h1>Mobile Developer<span id="punt">.</span></h1>
        <p class="titel-1">techno music fanatic<span id="punt">.</span></p>
        <p class="titel-2">gaming enthusiast<span id="punt">.</span></p>
        <p class="titel-3">whiskey taster<span id="punt">.</span></p>
        <a id="aboutlink" href="#about" class="btn px-0">
-           More about me
+           MORE ABOUT ME
        </a>
     </div>
        <img class="rounded mt-5" src="img/foto.jpg">
@@ -67,8 +67,8 @@
 
    <!--About me-->
 
-  <div class="bg2 p-5">
-       <div class="container py-5" id="about">
+  <div class="bg2 py-5" id="about">
+       <div class="container py-5">
            <h1 id="border">About me</h1>
            <div class="row">
                <div class="col-md-6 my-5">
@@ -114,8 +114,51 @@
            </div>
        </div>
        <div class="bg3">
-           <div class="container">
+           <div class="container py-5" id="work">
             <h1 id="border2">My work</h1>
+            <div class="row my-5">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" id="aboutlink" class="btn">Check it out</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" id="aboutlink" class="btn">Check it out</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" id="aboutlink" class="btn">Check it out</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+           </div>
+           <div class="container py-5" id="contact">
+            <h1 id="border3">Contact</h1>
+            <div class="row my-5">
+                <div class="col-sm-4">
+                    <p>Contact me by sending me an e-mail or a message on one of the following websites.</p>
+                    <p>Link to my resume: <a id="contactlinks" href="img/CV_Verlinden Glenn.pdf">Glenn Verlinden</a></p>
+                </div>
+                <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center">
+                    <a id="contactlinks" href="mailto:glennverlinden1@gmail.com" class="py-2"><i class="far fa-envelope px-2"></i>Glennverlinden1@gmail.com</a>
+                    <a id="contactlinks" href="https://www.facebook.com/glenn.verlinden.3" class="py-2"><i class="fab fa-facebook-square px-2"></i>Facebook</a>
+                    <a id="contactlinks" href="https://www.linkedin.com/in/glenn-verlinden/" class="py-2"><i class="fab fa-linkedin px-2"></i>LinkedIn</a>
+                </div>
+            </div>
            </div>
        </div>
 </body>
