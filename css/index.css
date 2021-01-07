@@ -153,6 +153,13 @@ img {
     border-bottom: 2px solid rgb(233, 185, 29);
     width: 303px;
 }
+.vuurwerk {
+    background-image: url(../img/vuurwerk.jpg);
+    opacity: 0.7;
+}
+.card:hover {
+    opacity: 1;
+}
 
 /* Contact styling */
 
